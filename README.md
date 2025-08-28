@@ -1,9 +1,5 @@
 ## Installation
 
-### Prerequisites
-- Python 3.7 or higher
-- pip package manager
-
 ### Dependencies
 ```bash
 pip install opencv-python pillow numpy
@@ -69,15 +65,6 @@ for file in *.jpg; do python glow_effects.py "$file" --type strong; done
 - **Kernel Sizes**: Dynamic calculation based on image dimensions
 - **Blur Layers**: Up to 7 layers with exponentially increasing radii
 - **Intensity Scaling**: Linear interpolation across blur layers
-
-## File Format Support
-
-### Input Formats
-- JPEG (.jpg, .jpeg)
-- PNG (.png) 
-- BMP (.bmp)
-- TIFF (.tiff, .tif)
-- All formats supported by OpenCV
 
 ### Output Specifications
 - Format preservation from input
